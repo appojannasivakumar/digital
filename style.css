@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,400;0,600;1,400;1,500&family=Outfit:wght@200;300;400;500&family=Poppins:ital,wght@0,200;0,300;0,500;1,300;1,400&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+section {
+  padding: 85px 0px;
+}
+
+.logo {
+  width: 8rem;
+}
+
+.logo1 {
+  width: 6rem;
+}
+
+.img {
+  width: 70%;
+}
+
+.service1-img {
+  width: 8rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box1 {
+  transition: 1s;
+  box-sizing: 0 0 5px #ffffff, 0 0 25px #ffffff;
+}
+.box1:hover {
+  transform: scale(0.75);
+
+  box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #ffffff,
+    0 0 100px #ffffff;
+}
+
+.bar {
+  background-color: rgb(145, 22, 173);
+}
+
+.home:hover {
+  color: #ffee00 !important;
+}
+
+.user {
+  width: 5rem !important;
+  border-radius: 50%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-names {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  line-height: 1rem;
+}
+
+.card-f {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 5px rgb(83, 255, 80), 0 0 25px rgb(83, 255, 80);
+  transition: 1s;
+}
+
+.card-s {
+  background-color: rgb(83, 255, 80);
+}
+
+.card-f:hover {
+  box-shadow: 0 0 5px rgb(83, 255, 80), 0 0 25px rgb(83, 255, 80),
+    0 0 50px rgb(83, 255, 80), 0 0 100px rgb(83, 255, 80);
+
+  transform: rotateX(180deg);
+}
+
+.icons {
+  width: 3.5rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  transition: 0.3s;
+  background-color: #000000;
+}
+
+.icons:hover {
+  transform: translateY(-10px);
+}
+
+.input1 {
+  width: 80%;
+  padding: 12px 18px;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.send {
+  width: 44%;
+  padding: 10px 24px;
+  position: relative;
+  left: -78px;
+  font-size: 19px;
+  outline: none;
+  border-radius: 8px;
+  background-color: #fff019;
+  transition: 1s;
+  border: 2px solid #fff019;
+}
+
+.send:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
